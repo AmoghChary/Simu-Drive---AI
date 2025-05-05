@@ -13,19 +13,25 @@ SimuDrive-AI is a Python-based self-driving car simulation project. It integrate
 - 📁 Modular code with clear separation of models and utilities
 
 ---
+🧠 Model Info
+Traffic Sign Classifier
+Input: Resized sign images
 
-## 📁 Project Structure
-SimuDrive-AI/
-├── yolov5-master/ # YOLOv5 local repo
-├── Models/
-│ ├── Yolo.py # YOLO inference script
-│ ├── train_traffic_sign_model.py # Training script for traffic sign classifier
-│ └── traffic_sign_model.h5 # Trained CNN model for sign recognition
-├── Utils/
-│ ├── lane_detector.py # Lane detection logic
-│ └── predict_sign.py # Prediction script using CNN
-├── test_videos/
-│ └── road1.mp4 # Sample input video
-├── README.md
-├── .gitignore
+Output: Predicted class (e.g., Speed Limit, Stop, etc.)
+
+Trained using: TensorFlow/Keras
+
+YOLOv5s
+Source: Local yolov5-master directory
+
+Pretrained weights are used (yolov5s.pt)
+
+🙌 Contributors
+Amogh Chary – AI Model Developer, System Integrator
+
+Misha Alam, Riddhi Chopra- Dataset analytics and Testing
+
+OpenAI (ChatGPT) – Development Support
+
+Ultralytics – YOLOv5 Framework
 
